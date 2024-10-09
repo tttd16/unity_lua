@@ -1,0 +1,19 @@
+<linker>
+    <assembly fullname="UnityEngine">
+        <type fullname="UnityEngine.ParticleAnimator" preserve="all"/>
+        <type fullname="UnityEngine.EllipsoidParticleEmitter" preserve="all"/>
+        <type fullname="UnityEngine.ParticleRenderer" preserve="all"/>
+        <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all"/>
+
+        <type fullname="UnityEngine.FlareLayer" preserve="all"/>
+        <type fullname="UnityEngine.AudioListener" preserve="all"/>
+    </assembly>
+
+
+    <assembly fullname="UnityEngine.AnimationModule">
+        <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all"/>
+    </assembly>
+
+
+    <assembly fullname="Unity.Timeline" preserve="all"/>
+</linker>
